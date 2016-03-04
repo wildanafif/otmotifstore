@@ -1,40 +1,31 @@
-
-
-<!--A Design by W3layouts 
-Author: W3layout
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
 <!DOCTYPE html>
 <html>
 <head>
-<title><?php echo $title;?></title>
-<link href="<?=base_url()?>assets/css/style_image_view.css" rel="stylesheet" type="text/css" media="all" />   
-<link href="<?=base_url()?>assets/css/Site.min.css" rel="stylesheet">
-<link href="<?=base_url()?>assets/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="<?=base_url()?>assets/js/jquery.min.js"></script>
+    <title><?php echo $title;?></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="otomotifstore " />
+    <link href="<?=base_url()?>assets/css/style_image_view.css" rel="stylesheet" type="text/css" media="all" />   
+    <link href="<?=base_url()?>assets/css/Site.min.css" rel="stylesheet">
+    <link href="<?=base_url()?>assets/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="<?=base_url()?>assets/js/jquery.min.js"></script>
 
 
-<!-- Custom Theme files -->
-<!--theme-style-->
-<link href="<?=base_url()?>assets/css/style.css" rel="stylesheet" type="text/css" media="all" />  
-<link href="<?=base_url()?>assets/css/style_view.css" rel="stylesheet" type="text/css" media="all" /> 
-<link href="<?=base_url()?>assets/icomoon/style.css" rel="stylesheet">
-<link href="<?=base_url()?>assets/css/bootstrapValidator.css" rel="stylesheet">
-<link href="<?=base_url()?>assets/custom/style.css" rel="stylesheet" type="text/css" media="all" />  
+    <!-- Custom Theme files -->
+    <!--theme-style-->
+    <link href="<?=base_url()?>assets/css/style.css" rel="stylesheet" type="text/css" media="all" />  
+    <link href="<?=base_url()?>assets/css/style_view.css" rel="stylesheet" type="text/css" media="all" /> 
+    <link href="<?=base_url()?>assets/icomoon/style.css" rel="stylesheet">
+    <link href="<?=base_url()?>assets/css/bootstrapValidator.css" rel="stylesheet">
+    <link href="<?=base_url()?>assets/custom/style.css" rel="stylesheet" type="text/css" media="all" />  
 
-<!--//theme-style-->
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Markito Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
-Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-<!--fonts-->
-<link href='http://fonts.googleapis.com/css?family=Amaranth:400,700' rel='stylesheet' type='text/css'>
-<!--//fonts-->
-<script src="<?=base_url()?>assets/js/jquery.min.js"></script>
+    <!--//theme-style-->
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <!--fonts-->
+    <link href='http://fonts.googleapis.com/css?family=Amaranth:400,700' rel='stylesheet' type='text/css'>
+    <!--//fonts-->
+    <script src="<?=base_url()?>assets/js/jquery.min.js"></script>
 
 
 

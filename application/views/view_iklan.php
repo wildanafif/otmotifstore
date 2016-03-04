@@ -230,6 +230,13 @@ $(document).ready(function() {
                         }
                     }
                 },
+                sub_kategori: {
+                    validators: {
+                        notEmpty: {
+                            message: '<div class="alert alert-danger"  role="alert"><h6>Sub Kategori iklan Tidak Boleh Kosong</h6></div>'
+                        }
+                    }
+                },
                  kondisi: {
                     validators: {
                         notEmpty: {
@@ -253,6 +260,14 @@ $(document).ready(function() {
                     validators: {
                          notEmpty: {
                             message: '<div class="alert alert-danger"  role="alert"><h6>Provinsi Tidak Boleh Kosong</h6></div>'
+                        }
+                      
+                    }
+                },
+                 daerah: {
+                    validators: {
+                         notEmpty: {
+                            message: '<div class="alert alert-danger"  role="alert"><h6>Daerah Tidak Boleh Kosong</h6></div>'
                         }
                       
                     }

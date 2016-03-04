@@ -1,5 +1,6 @@
 <!--footer-->
-    <div class="footer" style="background-color:#eae9e9;">
+    <div class="footer" style="background-color:#eae9e9;
+  bottom:0px;">
         <div class="container">
             <div class="col-md-5 footer-left">
                 <a href="<?php echo site_url() ?>"><img src="<?php echo site_url(); ?>assets/img/logoe.png" alt=""></a>
