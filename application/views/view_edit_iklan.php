@@ -3,8 +3,14 @@
      <div class="account-wall" style="widht:100%; margin-bottom:80px;">
      <div class="container">
       <?php if (isset($sukses_edit)) { ?>
+      <div style="margin-bottom: 10px;" >
+         <a href="<?php echo site_url(); ?>iklansaya" type="button" class="btn btn-primary btn-lg">Kembali ke menu sebelumnya</a>
+      </div>
+       
        
      <div class="alert alert-success" role="alert">Iklan berhasil di update</div>
+
+
       <?php } ?>
       <div class="panel panel-default">
         <div class="panel-heading"><h3>Edit Iklan </h3></div>
@@ -160,6 +166,7 @@
       
     </div>
   </div>
+</div>
 </div>
 </div>
 

@@ -164,7 +164,7 @@
             <input type="hidden" value="<?php echo $_SESSION['id_member']; ?>" >
           <?php
         } ?>
-          <input  type="checkbox" name="acc">  Saya setuju untuk memproses pemasangan iklan 
+          <input  type="checkbox" name="acc">Dengan ini  Saya setuju dengan ketentuan yang berlaku di otomotifstore.com dan saya setuju untuk memproses pemasangan iklan 
         </label>
       </div>
     </div>
