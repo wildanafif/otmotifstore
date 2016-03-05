@@ -107,7 +107,7 @@ class Iklan extends CI_Controller {
                     if (!isset($files['files'][0])) {
                          $dataInsert_img1=array(
                                         'id_iklan'=>  $id_iklan['id_iklan'],
-                                        'url_foto_iklan'=> 'uploads/not_set.jpg'
+                                        'url_foto_iklan'=> 'uploads/images_non.jpg'
                                     );
                         $data['title']=  "Iklan";
                         $data['url']=site_url()."iklan/view/".$id_iklan['id_iklan']."/".$id_iklan['waktu'];
@@ -121,7 +121,7 @@ class Iklan extends CI_Controller {
                         $this->load->view('view_sukses_iklan');
                         $this->load->view('footer');
                         $this->model_iklan->insert_image($dataInsert_img1);
-                        $this->model_iklan->query_insert('UPDATE `iklan` SET `temp_foto`="uploads/not_set.jpg" where id_iklan='.$id_iklan['id_iklan']);
+                        $this->model_iklan->query_insert('UPDATE `iklan` SET `temp_foto`="uploads/images_non.jpg" where id_iklan='.$id_iklan['id_iklan']);
                                   
 
                         

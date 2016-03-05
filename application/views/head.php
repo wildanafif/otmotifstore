@@ -8,6 +8,7 @@
     <link href="<?=base_url()?>assets/css/style_image_view.css" rel="stylesheet" type="text/css" media="all" />   
     <link href="<?=base_url()?>assets/css/Site.min.css" rel="stylesheet">
     <link href="<?=base_url()?>assets/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <LINK REL="SHORTCUT ICON" href="<?php echo site_url(); ?>assets/icon.png" />
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="<?=base_url()?>assets/js/jquery.min.js"></script>
 
@@ -452,7 +453,7 @@ function add_modal_sub_kategori(nama_sub_kategori){
         <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand" href="<?php echo site_url(); ?>">
-        <img alt="Brand" class="img-responsive" src="<?php echo site_url(); ?>assets/img/logoe.png" style="margin-top:-7%;">
+        <img alt="Brand" class="img-responsive" src="<?php echo site_url(); ?>assets/img/f_lg2.png" style="margin-top:-7%;">
       </a>
     </div>
 
@@ -510,7 +511,7 @@ function add_modal_sub_kategori(nama_sub_kategori){
 <!--header-->  
   <header style="background-color:#fff;" class="hilang">
         <div class="container">
-            <div class="navbar-header">
+            <div class="navbar-header" style="width:auto;">
                 <button type="button" class="navbar-toggle">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
@@ -518,7 +519,7 @@ function add_modal_sub_kategori(nama_sub_kategori){
                     <span class="icon-bar"></span>
                 </button>
                   <a class="navbar-brand" href="<?php echo site_url(); ?>">
-                    <img alt="Brand" class="img-responsive" src="<?php echo site_url(); ?>assets/img/logoe.png" style="margin-top:8%;">
+                    <img alt="Brand" class="img-responsive" src="<?php echo site_url(); ?>assets/img/f_lg2.png" style="margin-top:2%;">
                   </a>
             </div>
 

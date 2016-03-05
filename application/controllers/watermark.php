@@ -5,7 +5,7 @@
 
 function watermark_image_png($oldimage_name, $new_image_name){
     $text_show  = "otomotifstore"; // watermark text
-    $image_show = "assets/logo.png";   // watermark image
+    $image_show = "assets/wtr3.png";   // watermark image
     $image_path =  $image_show ; 
     $font_path  = "GILSANUB.TTF"; // font
     $font_size  = 20;       // contoh 20 = 20px  
@@ -29,7 +29,7 @@ function watermark_image_png($oldimage_name, $new_image_name){
 
 function watermark_image_jpg($oldimage_name, $new_image_name){
     $text_show  = "otomotifstore"; // watermark text
-    $image_show = "assets/logo.png";   // watermark image
+    $image_show = "assets/wtr3.png";   // watermark image
     $image_path =  $image_show ; 
     $font_path  = "GILSANUB.TTF"; // font
     $font_size  = 20;       // contoh 20 = 20px  
