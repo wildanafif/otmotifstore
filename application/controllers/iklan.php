@@ -177,6 +177,8 @@ class Iklan extends CI_Controller {
                     print_r($errors);
                 }
             }else{
+
+                $data['meta']['keywords']="Pasang Iklan di otomotifstore";
                 $data['data']=  $this->model_iklan->getAll_prov();
                  $data['kategori']=  $this->model_iklan->getAll_kategori();
                 $data['title']=  "Pasang Iklan";
@@ -242,6 +244,7 @@ class Iklan extends CI_Controller {
         function view(){
             $id=intval($this->uri->segment(3));
             $this->model_iklan->query_insert("UPDATE `iklan` SET `dilihat`=dilihat+1 WHERE id_iklan=".$id);
+            
             $data['iklan']=$this->model_iklan->query_for_control("SELECT * From iklan where id_iklan=".$id);
             $data['foto']=$this->model_iklan->get_by_id_foto($id);
             $data['kategori']=  $this->model_iklan->getAll_kategori();
@@ -253,6 +256,7 @@ class Iklan extends CI_Controller {
               $data['favorit']=$this->model_iklan->query_for_control("SELECT count(id_favorite) as favorit from favorite where id_user=".$_SESSION['id_user']);
 
             }
+            $data['meta']['keywords']=$data['iklan']['judul_iklan'];
             $data['id']=$id;
             $this->load->view('head',$data);
             $this->load->view('view_iklan_detail',$data);
