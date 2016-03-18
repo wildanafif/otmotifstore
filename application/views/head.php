@@ -8,31 +8,35 @@
     <meta name="keywords" content="otomotifstore <?php if (isset($meta['keywords'])) {
         echo ",".$meta['keywords'];
     } ?>" />
-    <link href="<?=base_url()?>assets/css/social-sharing-buttons.css" rel="stylesheet" type="text/css" media="all" />   
     <link href="<?=base_url()?>assets/css/style_image_view.css" rel="stylesheet" type="text/css" media="all" />   
     <link href="<?=base_url()?>assets/css/Site.min.css" rel="stylesheet">
     <link href="<?=base_url()?>assets/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
     <LINK REL="SHORTCUT ICON" href="<?php echo site_url(); ?>assets/icon.png" />
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="<?=base_url()?>assets/js/jquery.min.js"></script>
 
+
+    <!-- Custom Theme files -->
+    <!--theme-style-->
     <link href="<?=base_url()?>assets/css/style.css" rel="stylesheet" type="text/css" media="all" />  
     <link href="<?=base_url()?>assets/css/style_view.css" rel="stylesheet" type="text/css" media="all" /> 
     <link href="<?=base_url()?>assets/icomoon/style.css" rel="stylesheet">
     <link href="<?=base_url()?>assets/css/bootstrapValidator.css" rel="stylesheet">
     <link href="<?=base_url()?>assets/custom/style.css" rel="stylesheet" type="text/css" media="all" />  
 
+    <!--//theme-style-->
     <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-
+    <!--fonts-->
     <link href='http://fonts.googleapis.com/css?family=Amaranth:400,700' rel='stylesheet' type='text/css'>
-   
+    <!--//fonts-->
     <script src="<?=base_url()?>assets/js/jquery.min.js"></script>
 
 
 
-
+<!--filer-->
    <link href="<?=base_url()?>aset/css/jquery.filer.css" type="text/css" rel="stylesheet" />
     <link href="<?=base_url()?>aset/css/themes/jquery.filer-dragdropbox-theme.css" type="text/css" rel="stylesheet" />
- 
+    <!--jQuery-->
      <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
     <script type="text/javascript" src="<?=base_url()?>aset/js/jquery.filer.min.js"></script>
     <script type="text/javascript">
@@ -224,14 +228,17 @@
                         });
                     });
                 </script>
+<!-- start menu -->
 <link href="<?=base_url()?>assets/css/megamenu.css" rel="stylesheet" type="text/css" media="all" />
 <script type="text/javascript" src="<?=base_url()?>assets/js/megamenu.js"></script>
 <script type="text/javascript" src="<?=base_url()?>assets/js/jquery.timers-1.2.js"></script>
 <script type="text/javascript" src="<?=base_url()?>assets/js/jquery.easing.1.3.js"></script>
 
+<!-- Third, add the GalleryView Javascript and CSS files -->
 <script type="text/javascript" src="<?=base_url()?>assets/js/jquery.galleryview-3.0-dev.js"></script>
 <link type="text/css" rel="stylesheet" href="<?=base_url()?>assets/css/jquery.galleryview-3.0-dev.css" />
 
+<!-- Lastly, call the galleryView() function on your unordered list(s) -->
 <script type="text/javascript">
     $(function(){
         $('#myGallery').galleryView();
@@ -432,6 +439,7 @@ function add_modal_sub_kategori(nama_sub_kategori){
     </style>
    
 
+<!-- Second, add the Timer and Easing plugins -->
 
 </head>
 
@@ -439,6 +447,7 @@ function add_modal_sub_kategori(nama_sub_kategori){
 
 <nav class="navbar navbar-default muncul">
   <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" >
         <span class="sr-only">Toggle navigation</span>
@@ -451,6 +460,7 @@ function add_modal_sub_kategori(nama_sub_kategori){
       </a>
     </div>
 
+    <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       
      
@@ -498,9 +508,10 @@ function add_modal_sub_kategori(nama_sub_kategori){
                         
                     </li>
       </ul>
-    </div>
-  </div>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
 </nav>
+<!--header-->  
   <header style="background-color:#fff;" class="hilang">
         <div class="container">
             <div class="navbar-header" style="width:auto;">
@@ -565,6 +576,7 @@ function add_modal_sub_kategori(nama_sub_kategori){
                  
                 </ul>
             </div>
+            <!--/.nav-collapse -->
         </div>
     </header> 
 

@@ -7,7 +7,7 @@ class Auth extends CI_Controller {
         parent::__construct();
         session_start();
         $this->load->model('model_global');
-        $this->load->library('facebook' , array("appId" =>'1533208470324525' ,"secret"=>'48af65a490ae801697b80a95a665820f' ));
+        $this->load->library('facebook' , array("appId" =>'965767220143286' ,"secret"=>'2c5a67bbf53a57fc677c9382f615e90f' ));
         $this->user = $this->facebook->getUser();
         }
 
